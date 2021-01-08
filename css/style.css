@@ -1,0 +1,183 @@
+/* **********     Reset CSS     ********** */
+:root {
+    --main-font: sans-serif;
+    --font-size: 16px;
+    --main-color: #f7df1e;
+    --second-color: #222;
+    --main-modal-color: rgba(247, 222, 30, 0.85);
+    --second-modal-color: rgba(34, 34, 34, 0.85);
+    --container-width: 1200px;
+    --background-color:#EFA022; 
+    
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+    
+  }
+  
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+  }
+  
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+  }
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circulo{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #FED2A4;
+    margin: auto;
+    position: absolute;
+    right: 38%;
+    top: 50%;
+    z-index: 0;
+
+}
+.header{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-slogan{
+    display: flex;
+    flex-direction: row;
+    right: 0;
+    justify-content: flex-end;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    flex-direction: column;
+}
+.buttons img{
+    padding: 20px;
+    width: 150px;
+}
+.content-illustration{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.chile1, .chile2, .chile3{
+    width: 30px;
+}
+.chile3{
+    margin-right: 16px;
+}
+
+.personaje-mexicano{
+ position: relative;
+ width: 466.08px;
+ height: 511.7px;
+ margin:auto;
+}
+
+
+.cejas{
+    position: absolute;
+    z-index: 999;
+    width: 170.3px;
+    right: 40.7%;
+    top: 34%;
+}
+.ojos{
+    position: absolute;
+    z-index: 998;
+    width: 149.8px;
+    right: 43%;
+    top: 36%;
+}
+.boca{
+    position: absolute;
+    z-index: 997;
+    width: 45px;
+    right: 48%;
+    top: 52%;
+    right: 55%;
+}
+.taza{
+    position: absolute;
+    z-index: 996;
+    width: 150px;
+    right: 3%;
+    top: 60%;
+}
+.nacho-verde{
+    position: absolute;
+    z-index: 995;
+    width:104.7px;
+    top: 45%;
+    right: 10%;
+}
+.nacho-rojo{
+    position: absolute;
+    z-index: 994;
+    width: 100.1px;
+    top: 43%;
+    right: 6%;
+}
+.personaje{
+    position: absolute;
+    z-index: 993;
+    width: 379.7px;
+
+}
+.brazo{
+    position: absolute;
+    z-index: 992;
+    width: 201.4px;
+    right: 13%;
+    top: 72%;
+}
+
+
+
+
+
+
